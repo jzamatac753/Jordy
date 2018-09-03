@@ -1,0 +1,66 @@
+Ejercicio 1
+//Este programa lee nombre y edad
+#include<iostream>
+#include<string>
+using namespace std ;
+int main( )
+{
+cout<<"Por favor ingrese su nombre:\n";
+string firstname;
+//first name es una variable de tipo string
+cin>>firstname;
+cout<<"Por favor ahora ingrese su edad correspondiente:\n" 
+int edad;
+cin>>edad
+// leelos caracteres y los guarda en firstname
+cout<<"Hola, "<<firstname<<"!\n";
+cout<<"La edad de"<<firstname<<"es:"<<edad<<"!\n"
+return 0;
+}
+
+Ejercicio 2
+//Este programa lee y compara nombres ”
+#include<iostream>
+#include<string> 
+using namespace std;
+int main ( )
+{
+cout <<"Ingrese dos nombres \n";
+string first;
+string second;
+cin>>first;// (o puede ser asi cin>>first>>second) lee dos strings
+cin>>second;
+if (first==second) cout<<"Ambos son iguales\n";
+if (first<second)
+cout<<first<<" esta lexico graficamente antes"<<second<<"\n";
+if (first>second)
+cout<<first<<" esta lexico graficamente despues "<<second<<"\n";
+}
+
+Ejercicio 3
+//Este programa encuentra palabras adyacentes repetidas
+#include<iostream>
+#include<string>
+using namespace std;
+int main ( )
+{
+string previous=" "; // no es palabra
+string current;
+while(cin>>current) { // lee un string
+if (previous==current) // Revisa si la nueva
+// palabra es igual a la anterior
+cout<<"Palabra repetida:"<<current<<"\n";  
+previous=current;
+}
+}
+
+Ejercicio 4
+//Encuentra al menos 4 errores
+#include<iostream>
+#include<string>
+using namespace std;
+int Main( ) /* el Main es erroneo
+{
+STRING s="Adios mundo cruel!"; /* el string s no digit asi
+cOut << S << ’ \n ’ ; /* el cout es de esta manera y el S no se encuentra declara como alguna variable
+}
