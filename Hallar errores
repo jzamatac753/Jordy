@@ -1,0 +1,10 @@
+Ejercicio 4
+//Encuentra al menos 4 errores
+#include<iostream>
+#include<string>
+using namespace std;
+int Main( ) /* el Main es erroneo
+{
+STRING s="Adios mundo cruel!"; /* el string s no digit asi
+cOut << S << ’ \n ’ ; /* el cout es de esta manera y el S no se encuentra declara como alguna variable
+}
