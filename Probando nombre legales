@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main(){
+int main(){ // No podemos poner al comienzo de una definicion numeros o caracteres de signos(@,#,~,€,etc) ya que este nos mandara un error
 
  double a=2000;
  char c=a;
